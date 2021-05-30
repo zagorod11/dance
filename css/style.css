@@ -1,0 +1,584 @@
+body{
+	background-image: url(../img/pryzhok_tanec_breyk_dans_paren_kraski_15872_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+/* ---- main page ---- */
+
+
+
+
+#main {
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 75px;
+	position: relative;
+}
+.b1{
+	position: absolute;
+	color: white;
+	font-family: Arial;
+	line-height: 0.3;
+	text-align: center;
+	left: 7%;
+	margin-top: 12%;
+}
+.b2{
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	margin-top: 30%;
+	padding-left: 10%;
+
+}
+.b2 img{
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+.b2 img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.b1 a {
+  border-bottom: 1px solid white;
+  color: white;
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+.b1 a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 10%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+  color: white;
+}
+
+/* ---- end of main page ----*/
+
+
+
+
+/* ---- menu ----*/
+
+#page1 {
+	margin-top: 150px;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-right: 10%;
+	margin-left: 10%;
+}
+#menu .row{
+	position: fixed;
+    top: 0;
+    width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 55px;
+}
+#menu .menu{
+	padding-top: 15px;
+	height: 35px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 20px;
+}
+#menu li {
+	text-decoration: none;
+	display: inline;
+	padding: 20px;
+}
+#menu li a{
+	opacity: 0.9;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 20px;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+#menu li a:hover{
+	border: 1px purple solid;
+	color: purple;
+	text-decoration: none;
+  	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+  	transition:all 0.3s ease;
+}
+
+#menu ul{
+	padding-top: 40px;
+	text-align: center;
+}
+
+
+
+/*---- page1 ----*/
+
+
+
+
+#page1 .container{
+	position: relative;
+}
+.text1{
+	position: absolute;
+	color: white;
+	margin-top: 50px;
+	font-family: Arial
+	font-size: 17px;
+}
+.t1{
+	margin-bottom: 35px;
+	text-align: left;
+	width: 70vh;
+	margin-left: 55px;
+	margin-top: 25px;
+
+}
+.t2{
+	margin-top: 10%;
+	text-align: right;
+	margin-right: 55px;
+}
+.text1 img{
+	float: right;
+	margin-right: 5%;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+.text1 img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.img2{
+	margin-left: 5%;
+	margin-top: 50px;
+	float: left;
+}
+
+/* -------------- page 2---------------- */
+
+#page2 {
+	position: relative;
+	height: 100vh;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-top: 50vh;
+}
+.c1{
+	padding-left: 44%;
+	position: absolute;
+	top: 20px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+}
+.lilou{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	color: white;
+	top: 60px;
+	margin-left: 5%;
+	text-align: center;
+}
+.lilou img{
+	float: left;
+		border: 3px white solid;
+	transition: all 0.3s ease;
+}
+.lilou p{
+	top: 150px;
+}
+.lilou img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.junior{
+	position: absolute;
+	left: 55%;
+	width: 500px;
+	height: 500px;
+	color: white;
+	top: 60px;
+	margin-left: 5%;
+	text-align: center;
+}
+.junior img{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+.junior p{
+	top: 150px;
+}
+.junior img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+#page2 hr{
+	border: 1px white solid;
+}
+#page2 hr {
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, #FFF, #191979, #FFF);
+}
+#page2 hr:before,
+hr:after {
+    content: '';
+    display: inline-block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #191979;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+}
+#page2 hr:after {
+    animation: anim-hr 1s linear infinite; 
+}
+@keyframes anim-hr {
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+.kleju{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	color: white;
+	top: 380px;
+	margin-left: 5%;
+	text-align: center;
+}
+.kleju img{
+	float: left;
+		border: 3px white solid;
+	transition: all 0.3s ease;
+}
+.kleju p{
+	top: 150px;
+}
+.kleju img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.lilzoo{
+	position: absolute;
+	left: 55%;
+	width: 500px;
+	height: 500px;
+	color: white;
+	top: 380px;
+	margin-left: 5%;
+	text-align: center;
+}
+.lilzoo img{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+.lilzoo p{
+	top: 150px;
+}
+.lilzoo img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+/* -------------- page 3---------------- */
+#page3 {
+	height: 100vh;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	padding-top: 50vh;
+	position: relative;
+}
+#page3 h4{
+	position: relative;
+	bottom: 300px;
+	color: white;
+	font-family: Tahoma;
+}
+.d1{
+	position: absolute;
+}
+.lussysky{
+	position: absolute;
+	bottom: 40px;
+	left: 15vh;
+	color: white;
+	text-align: center;
+	float: left;
+}
+.lussysky p{
+	float: left;
+	width: 300px;
+	padding-top: 50px;
+}
+.lussysky img{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+
+.lussysky img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.tollskit{
+	position: absolute;
+	left: 110vh;
+	bottom: 40px;
+}
+.tollskit img{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+	float: left;
+}
+
+.tollskit img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.tollskit p{
+	float: right;
+	width: 300px;
+	padding-top: 40px;
+	color: white;
+}
+.d1 hr{
+	position: relative;
+	border: 1px white solid;
+}
+.d1 hr {
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, #FFF, #191979, #FFF);
+    width: 208vh;
+}
+.d1 hr:before,
+hr:after {
+    content: '';
+    display: inline-block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #191979;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+}
+.d1 hr:after {
+    animation: anim-hr 1s linear infinite; 
+}
+@keyframes anim-hr {
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+.intact{
+	position: absolute;
+	left: 15vh;
+}
+.intact p{
+	color: white;
+	float: left;
+	width: 300px;
+	padding-top: 50px;
+}
+.intact img{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+}
+
+.intact img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.gimnast{
+	position: absolute;
+	left: 110vh;
+}
+.gimnast img{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+	float: left;
+}
+
+.gimnast img:hover{
+	border: 6px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.gimnast p{
+	float: right;
+	width: 300px;
+	padding-top: 20px;
+	color: white;
+}
+/* -------------- page 4---------------- */
+#page4 {
+	height: 100vh;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: left
+	padding-top: 50vh;
+	position: relative;
+}
+.v1{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 5%;
+}
+.v1 p{
+	margin-top: 8%;
+	padding-left: 8vh;
+	float: right;
+	color: white;
+	text-align: center;
+	width: 500px;
+}
+.vi1{
+	color: black;
+}
+.v2{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 5%;
+}
+.v2 p{
+	float: right;
+	color: white;
+	text-align: center;
+	margin-top: 8%;
+	padding-left: 8vh;
+	float: right;
+	color: white;
+	text-align: center;
+	width: 500px;
+}
+.v1 iframe{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+	float: left;
+}
+
+.v1 iframe:hover{
+	border: 3px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+.v2 iframe{
+	float: right;
+	border: 3px white solid;
+	transition: all 0.3s ease;
+	float: left;
+}
+
+.v2 iframe:hover{
+	border: 3px #191979 solid;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+/*-----------------------------------*/
+.nagolovnu{
+	background-color: rgba(0, 0, 0, 0.6);
+	list-style: none;
+}
+.nagolovnu li{
+	text-align: center;
+	text-decoration: none;
+	margin: 55px;
+}
+.nagolovnu li a{
+	opacity: 0.9;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 25px;
+}
+.nagolovnu li a:hover{
+	color: purple;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px black, 0 0 1em white;
+	transition: 0.3s;
+}
+
+section{
+	margin-top: 10px;
+}
+
+.links{
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 250px;
+	display: flex;
+	align-items: flex-end;
+	font-family: Tahoma;
+	font-size: 15px;
+}
+.links li a{
+	color: gray;
+}
+.links li{
+	width: 400px;
+	margin-left: 20px;
+	list-style-type: none;
+	color: white;
+	margin-bottom: 15px;
+}
+.bd{
+	float: right;
+	text-align: right;
+	margin-left: 70vh;
+}
